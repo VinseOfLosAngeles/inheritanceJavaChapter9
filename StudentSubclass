@@ -1,17 +1,35 @@
+package person;
+/**
+ *
+ * @author vporr
+ */
 public class Student extends Person
 {
     private String major;
-    public Student(String studentName, int studentBirthYear, String studentMajor)
+    /**
+     * constructs a student object
+     * @param name the students name
+     * @param birthYear the students year of birth
+     * @param major the students major in college
+     */
+    public Student(String name, int birthYear, String major)
     {
-        Student.setName(studentName);
-        Student.setBirthYear(studentBirthYear;
-        major = studentMajor;
+        super(name, birthYear);
+        setName(name);
+        setBirthYear(birthYear);
+        this.major = major;
     }
     /**
     * @return returns a String with the student's information
     */
     public String toString()
     {
-        return Student.getName + " " + Student.getBirthYear() + " " + studentMajor;
+        return (getName() + " " + getBirthYear() + " " + major);
     }
+    
+    //Getter and Setter for new variable (major)
+    public String getMajor()
+    {return major;}
+    public void setMajor(String newMajor)
+    {this.major = newMajor;}
 }
