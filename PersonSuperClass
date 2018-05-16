@@ -1,3 +1,8 @@
+package person;
+/**
+ *
+ * @author vporr
+ */
 public class Person
 {
     private String name;
@@ -15,6 +20,7 @@ public class Person
     /**
     * @return returns a String object which is the persons birth year
     */
+
     public String toString()
     {return name + " " + birthYear;}
     
