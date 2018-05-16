@@ -1,0 +1,20 @@
+package person;
+/**
+ *
+ * @author vporr
+ */
+public class SchoolTester 
+{
+    public static void main(String[] args)
+    {
+        Person vince = new Person("Vince", 1991);
+        Student alex = new Student("Alex", 1992, "American History");
+        Instructor chris = new Instructor("Chris", 1993, 999000);
+        System.out.println(vince.toString());
+        System.out.println(alex.toString());
+        System.out.println(chris.toString());
+        
+    
+    
+    }
+}
