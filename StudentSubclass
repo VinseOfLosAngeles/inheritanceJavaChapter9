@@ -14,3 +14,4 @@ public class Student extends Person
     {
         return Student.getName + " " + Student.getBirthYear() + " " + studentMajor;
     }
+}
