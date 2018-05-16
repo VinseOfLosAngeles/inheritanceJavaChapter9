@@ -16,7 +16,7 @@ public class Person
     * @return returns a String object which is the persons birth year
     */
     public String toString()
-    {return "Kill 'em all";}
+    {return name + " " + birthYear;}
     
     //getters and setters
     public String getName()
