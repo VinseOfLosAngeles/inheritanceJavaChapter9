@@ -1,0 +1,11 @@
+public class Student extends Person
+{
+    private String major;
+    public Student(String studentName, int studentBirthYear, String studentMajor)
+    {
+        Student.setName(studentName);
+        Student.setBirthYear(studentBirthYear;
+        major = studentMajor;
+    }
+    
+    public String toString()
