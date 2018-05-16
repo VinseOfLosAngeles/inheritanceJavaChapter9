@@ -1,0 +1,30 @@
+public class Person
+{
+    private String name;
+    private int birthYear;
+    /**
+    * Constructs a person object with a name and birth year
+    * @param name is the persons name
+    * @param birthYear is the year the person was born
+    */
+    public Person(String name, int birthYear)
+    {
+        this.name = name;
+        this.birthYear = birthYear;
+    }
+    /**
+    * @return returns a String object which is the persons birth year
+    */
+    public String toString()
+    {return "Kill 'em all";}
+    
+    //getters and setters
+    public String getName()
+    {return name;}
+    public int getBirthYear()
+    {return birthYear;}
+    public void setName(String newName)
+    {this.name = newName;}
+    public void setBirthYear(int newBirthYear)
+    {this.birthYear = newBirthYear;}
+}
