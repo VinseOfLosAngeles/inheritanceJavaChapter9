@@ -7,5 +7,10 @@ public class Student extends Person
         Student.setBirthYear(studentBirthYear;
         major = studentMajor;
     }
-    
+    /**
+    * @return returns a String with the student's information
+    */
     public String toString()
+    {
+        return Student.getName + " " + Student.getBirthYear() + " " + studentMajor;
+    }
