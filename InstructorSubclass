@@ -1,0 +1,34 @@
+package person;
+/**
+ *
+ * @author vporr
+ */
+public class Instructor extends Person
+{
+    private double salary;
+    /**
+     * Constructs an Instructor-Person
+     * @param name the instructors name
+     * @param birthYear  the instructors year of birth
+     * @param salary the instructors salary
+     */
+    public Instructor(String name, int birthYear, double salary)
+    {
+        super(name, birthYear);
+        setName(name);
+        setBirthYear(birthYear);
+        this.salary = salary;
+    }
+    /**
+     * 
+     * @return a string with the Instructors information
+     */
+    public String toString()
+    {return (getName() + " " + getBirthYear() + " $" + salary);}
+    //getter and setter for new variable (salary)
+    public double getSalary()
+    {return salary;}
+    public void setSalary(double newSalary)
+    {salary = newSalary;}
+    
+}
